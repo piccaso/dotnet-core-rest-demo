@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dncrestdemo:
+    image: dncrestdemo
+    build:
+      context: ./DncRestDemo
+      dockerfile: Dockerfile
